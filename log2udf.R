@@ -7,4 +7,4 @@ logcpm_data=function(y){
   logcpm= log2(mat_cpm+1)
   return(logcpm)
 }
-  
+  datacpm=logcpm_data (y)
