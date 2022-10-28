@@ -100,6 +100,6 @@ library(EnhancedVolcano)
 
 EnhancedVolcano(matX,lab = rownames(matX),x='log2FC',y='pval')
 #if (!require("BiocManager", quietly = TRUE))
- # install.packages("BiocManager")
+ #install.packages("BiocManager")
 
 library(matrixStats)
